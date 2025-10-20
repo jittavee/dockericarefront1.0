@@ -6,12 +6,17 @@ import localFont from 'next/font/local'
 const inter = localFont({
   src: [
     {
-      path: '../public/fonts/Inter-Regular.ttf', // <--- แก้ไข Path ให้ถูกต้อง
+      path: '../public/fonts/Inter_18pt-Regular.ttf', // <--- แก้ไข Path ให้ถูกต้อง
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../public/fonts/Inter-Bold.ttf', // <--- แก้ไข Path ให้ถูกต้อง
+      path: '../public/fonts/Inter_18pt-boldtalic.ttf', // <--- แก้ไข Path ให้ถูกต้อง
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../public/fonts/Inter_18pt-Bold.ttf', // <--- แก้ไข Path ให้ถูกต้อง
       weight: '700',
       style: 'normal',
     },
