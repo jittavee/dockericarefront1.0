@@ -4,25 +4,19 @@ import Navbar from "@/components/Navbar"; // Import Navbar // Import Footer
 import Footer2 from "@/components/Footer2"; // Import Footer
 import localFont from 'next/font/local'
 const inter = localFont({
-  src: [
+   src: [
     {
-      path: '../public/fonts/Inter_18pt-Regular.ttf', // <--- แก้ไข Path ให้ถูกต้อง
+      path: '../public/fonts/Inter_18pt-Regular.ttf', // <-- ตรวจสอบชื่อนี้
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../public/fonts/Inter_18pt-boldtalic.ttf', // <--- แก้ไข Path ให้ถูกต้อง
-      weight: '400',
-      style: 'normal',
-    },
-    {
-      path: '../public/fonts/Inter_18pt-Bold.ttf', // <--- แก้ไข Path ให้ถูกต้อง
+      path: '../public/fonts/Inter_18pt-Bold.ttf',    // <-- ตรวจสอบชื่อนี้
       weight: '700',
       style: 'normal',
     },
-    // เพิ่มไฟล์ฟอนต์อื่นๆ ที่คุณต้องการใช้
   ],
-  variable: '--font-inter', // (Optional) สำหรับใช้กับ Tailwind CSS
+  variable: '--font-inter',
 })
 
 export const metadata: Metadata = {
